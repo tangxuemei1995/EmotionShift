@@ -1,0 +1,24 @@
+{
+  "target_field": "reversal_type",
+  "train_instances": 2114,
+  "test_instances": 535,
+  "num_labels": 7,
+  "train_label_distribution": {
+    "frustration": 1516,
+    "satiation": 376,
+    "contingent": 191,
+    "na": 3,
+    "contingent,frustration": 4,
+    "frustration,satiation": 23,
+    "contingent,satiation": 1
+  },
+  "test_label_distribution": {
+    "contingent": 64,
+    "frustration": 391,
+    "contingent,frustration": 4,
+    "satiation": 65,
+    "frustration,satiation": 6,
+    "contingent,satiation": 1,
+    "na": 4
+  }
+}

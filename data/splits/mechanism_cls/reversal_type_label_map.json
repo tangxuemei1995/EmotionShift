@@ -1,0 +1,29 @@
+{
+  "labels": [
+    "contingent",
+    "contingent,frustration",
+    "contingent,satiation",
+    "frustration",
+    "frustration,satiation",
+    "na",
+    "satiation"
+  ],
+  "label2id": {
+    "contingent": 0,
+    "contingent,frustration": 1,
+    "contingent,satiation": 2,
+    "frustration": 3,
+    "frustration,satiation": 4,
+    "na": 5,
+    "satiation": 6
+  },
+  "id2label": {
+    "0": "contingent",
+    "1": "contingent,frustration",
+    "2": "contingent,satiation",
+    "3": "frustration",
+    "4": "frustration,satiation",
+    "5": "na",
+    "6": "satiation"
+  }
+}

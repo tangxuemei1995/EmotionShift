@@ -1,0 +1,8 @@
+# Source from other run_*.sh:  source "$(dirname "$0")/env_hf_cache.sh"
+CACHE_DIR="${CACHE_DIR:-/mnt/external_8t/huggingface_cache}"
+mkdir -p "${CACHE_DIR}"
+export HF_HOME="${CACHE_DIR}"
+export HF_HUB_CACHE="${CACHE_DIR}"
+export TRANSFORMERS_CACHE="${CACHE_DIR}"
+export HF_HUB_OFFLINE="${HF_HUB_OFFLINE:-0}"
+export TRANSFORMERS_OFFLINE="${TRANSFORMERS_OFFLINE:-0}"

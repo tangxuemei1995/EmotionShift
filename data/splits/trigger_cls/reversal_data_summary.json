@@ -1,0 +1,24 @@
+{
+  "target_field": "reversal",
+  "train_instances": 2114,
+  "test_instances": 535,
+  "num_labels": 7,
+  "train_label_distribution": {
+    "negation": 1512,
+    "irony": 379,
+    "opposite": 193,
+    "na": 2,
+    "negation,opposite": 4,
+    "irony,negation": 23,
+    "irony,opposite": 1
+  },
+  "test_label_distribution": {
+    "opposite": 63,
+    "negation": 392,
+    "negation,opposite": 4,
+    "irony": 66,
+    "irony,negation": 5,
+    "na": 4,
+    "irony,opposite": 1
+  }
+}

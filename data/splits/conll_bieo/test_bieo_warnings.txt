@@ -1,0 +1,27 @@
+input=/mnt/SSD_2T/tangxuemei/Emotion_reversal/data/splits/test_updated.jsonl
+total_samples=487
+samples_with_span=487
+total_span_items=535
+matched_span_items=515
+unmatched_or_skipped=20
+
+1699579302_719	span not found: 她竟然能这么{欢|Irony Span}乐[怒骂][抓狂]
+1796926907_599	overlapped(shorter) span dropped: 不痛快
+1961197532_91	overlapped(shorter) span dropped: 不如意
+1902047290_164	overlapped(shorter) span dropped: 不用担心比赛沉闷了
+1874440095_646	overlapped(shorter) span dropped: 没有太多惊喜
+1950099413_157	overlapped(shorter) span dropped: 不开心
+1957078595_126	overlapped(shorter) span dropped: 不感动
+1724900192_235	overlapped(shorter) span dropped: 不害怕
+2026550721_314	overlapped(shorter) span dropped: 不开心
+1846629743_303	overlapped(shorter) span dropped: 不愉快
+1957617950_131	overlapped(shorter) span dropped: 不开心
+1769880234_1509	overlapped(shorter) span dropped: 不快乐
+1712317155_311	overlapped(shorter) span dropped: 很不开心
+1732218752_432	overlapped(shorter) span dropped: 不是很爱喝可乐
+1673347085_5	overlapped(shorter) span dropped: 空欢喜
+1279548180_463	overlapped(shorter) span dropped: 不后悔
+1791936735_79	overlapped(shorter) span dropped: 要不就是从喜欢变成爱再到爱而不得，要不就是从嫉妒变成不懈最后畸形自卑
+1791936735_475	overlapped(shorter) span dropped: 要不就是从喜欢变成爱再到爱而不得，要不就是从嫉妒变成不懈最后畸形自卑
+1781475921_669	overlapped(shorter) span dropped: 不感动
+1153242892_111	overlapped(shorter) span dropped: 不喜欢吃鸡蛋

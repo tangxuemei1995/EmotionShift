@@ -1,0 +1,29 @@
+{
+  "labels": [
+    "irony",
+    "irony,negation",
+    "irony,opposite",
+    "na",
+    "negation",
+    "negation,opposite",
+    "opposite"
+  ],
+  "label2id": {
+    "irony": 0,
+    "irony,negation": 1,
+    "irony,opposite": 2,
+    "na": 3,
+    "negation": 4,
+    "negation,opposite": 5,
+    "opposite": 6
+  },
+  "id2label": {
+    "0": "irony",
+    "1": "irony,negation",
+    "2": "irony,opposite",
+    "3": "na",
+    "4": "negation",
+    "5": "negation,opposite",
+    "6": "opposite"
+  }
+}

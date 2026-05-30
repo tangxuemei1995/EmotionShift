@@ -1,0 +1,45 @@
+1605149213_119	multi_span_sample	span_count=2
+1805586243_1345	multi_span_sample	span_count=2
+1796926907_599	multi_span_sample	span_count=2
+1903521941_5	multi_span_sample	span_count=2
+1942787574_32	multi_span_sample	span_count=2
+1961197532_91	multi_span_sample	span_count=3
+1902047290_164	multi_span_sample	span_count=2
+1632209697_106	multi_span_sample	span_count=2
+1874440095_646	multi_span_sample	span_count=2
+1950099413_157	multi_span_sample	span_count=2
+1957078595_126	multi_span_sample	span_count=2
+1764122582_5	multi_span_sample	span_count=2
+1806210861_5	multi_span_sample	span_count=2
+1889719011_105	multi_span_sample	span_count=2
+1876279311_345	multi_span_sample	span_count=2
+1724900192_235	multi_span_sample	span_count=2
+2026550721_314	multi_span_sample	span_count=2
+1827821427_452	multi_span_sample	span_count=4
+2006410675_1324	multi_span_sample	span_count=3
+1846629743_303	multi_span_sample	span_count=2
+1901061555_446	multi_span_sample	span_count=2
+1957617950_131	multi_span_sample	span_count=2
+1806173034_465	multi_span_sample	span_count=2
+1738032142_443	multi_span_sample	span_count=2
+1954463735_631#0	invalid_or_na_label	field=reversal_type	raw=
+1883788054_251#0	invalid_or_na_label	field=reversal_type	raw=NA
+1854272250_506	multi_span_sample	span_count=2
+1954789913_191	multi_span_sample	span_count=3
+1824669154_242#0	invalid_or_na_label	field=reversal_type	raw=
+1955159597_164	multi_span_sample	span_count=2
+1769880234_1509	multi_span_sample	span_count=2
+1769880234_1753	multi_span_sample	span_count=2
+1285079024_142#0	invalid_or_na_label	field=reversal_type	raw=NA
+1712317155_311	multi_span_sample	span_count=2
+1945935333_332	multi_span_sample	span_count=2
+1732218752_432	multi_span_sample	span_count=2
+1673347085_5	multi_span_sample	span_count=3
+1279548180_463	multi_span_sample	span_count=2
+1957801092_219	multi_span_sample	span_count=3
+1748516160_322	multi_span_sample	span_count=2
+1791936735_79	multi_span_sample	span_count=2
+1791936735_475	multi_span_sample	span_count=2
+1797762215_155	multi_span_sample	span_count=2
+1781475921_669	multi_span_sample	span_count=2
+1153242892_111	multi_span_sample	span_count=2

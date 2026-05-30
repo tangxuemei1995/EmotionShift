@@ -1,0 +1,54 @@
+input=/mnt/SSD_2T/tangxuemei/Emotion_reversal/data/splits/train_updated.jsonl
+total_samples=1947
+samples_with_span=1947
+total_span_items=2062
+matched_span_items=2015
+unmatched_or_skipped=47
+
+1992620410_436	overlapped(shorter) span dropped: 不高兴
+1921677945_706	overlapped(shorter) span dropped: 不开心
+1829665682_3	overlapped(shorter) span dropped: 不快乐
+1834013230_391	overlapped(shorter) span dropped: 不能开心的玩耍
+1784016105_88	overlapped(shorter) span dropped: 不开心
+1869803850_993	overlapped(shorter) span dropped: 不开心
+1958848914_193	overlapped(shorter) span dropped: 不炫耀
+1784202627_511	overlapped(shorter) span dropped: 不高兴了[委屈]
+1965602264_950	overlapped(shorter) span dropped: 不开心
+1955002744_105	overlapped(shorter) span dropped: 不要怕
+1955002744_606	overlapped(shorter) span dropped: 不怕辣…
+1658466233_249	overlapped(shorter) span dropped: 不自在
+1901975037_342	overlapped(shorter) span dropped: 不开心
+1918553201_390	overlapped(shorter) span dropped: 不得开心颜
+1826060430_1156	overlapped(shorter) span dropped: 不担心我逃课了
+2020160641_1169	overlapped(shorter) span dropped: 不害怕
+1428448000_284	overlapped(shorter) span dropped: 不高兴
+1428448000_293	overlapped(shorter) span dropped: 不怕咬到舌头
+1721070963_1032	overlapped(shorter) span dropped: 8喜欢
+1767212104_313	overlapped(shorter) span dropped: 不害怕
+1118279721_261	overlapped(shorter) span dropped: 不如意
+1760327252_513	overlapped(shorter) span dropped: 不那么浮躁
+1974494293_800	overlapped(shorter) span dropped: 不高兴
+1882173967_337	span not found: 不认识就不能喜欢你了[嘻嘻]?
+1893452965_10	overlapped(shorter) span dropped: 不害怕
+1944231835_99	overlapped(shorter) span dropped: 不怕比质量
+1944231835_99	overlapped(shorter) span dropped: 不怕比价
+1916703935_165	overlapped(shorter) span dropped: 不快乐
+1898377715_495	overlapped(shorter) span dropped: 烦恼和忧愁比起那些自豪多了多少
+1728468017_635	span not found: 不开心[委屈]
+1928957977_245	overlapped(shorter) span dropped: 不开心
+1969281343_247	overlapped(shorter) span dropped: 不是无聊
+1812765390_408	overlapped(shorter) span dropped: 不顺心
+1750673393_375	overlapped(shorter) span dropped: 不惊讶
+1929873525_103	overlapped(shorter) span dropped: 不快乐
+1982306675_464	span not found: 我再也不炫耀我的碎眠好老, [委屈][委屈][委屈][委屈][委屈][委屈]
+1907919325_229	overlapped(shorter) span dropped: 不乐意
+1797573657_1084	overlapped(shorter) span dropped: 没有偷乐
+1162576224_1824	span not found: 再不疯狂我们就毕业了
+1977222715_759	overlapped(shorter) span dropped: 能选择一个虽然很累但是不讨厌而且还挺喜欢的专业
+1908503695_180	overlapped(shorter) span dropped: 而不是烦
+1770017497_60	overlapped(shorter) span dropped: 单身不可怕
+1436884842_516	overlapped(shorter) span dropped: 不喜欢黑丝
+2007304135_424	overlapped(shorter) span dropped: 不喜欢
+1768856442_665	overlapped(shorter) span dropped: 不开心
+1874858435_18	overlapped(shorter) span dropped: 不开心
+1806884231_181	overlapped(shorter) span dropped: 不自信

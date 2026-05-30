@@ -1,0 +1,110 @@
+You are an expert in Chinese emotion analysis and emotion shift annotation.  
+Please perform structured annotation for the given sentence.
+
+Your task is to identify emotionally relevant spans and annotate their emotional properties according to the following definitions.
+
+# Annotation Task
+
+## 1. Emotion Span
+
+Extract the minimal continuous text span that contains linguistic cues relevant to emotional expression, emotional modulation, or emotional interpretation.
+
+The span may include:
+- explicit emotional expressions
+- negation structures
+- contrastive/oppositional expressions
+- ironic or sarcastic expressions
+- discourse structures affecting emotional meaning
+
+Importantly:
+- An Emotion Span does NOT necessarily contain an actual emotion shift.
+- Some spans may preserve the same emotional state.
+- Avoid extracting overly long or redundant spans.
+- Prefer the minimal span sufficient for interpreting the emotional meaning.
+
+---
+
+## 2. Emotion Shift
+
+Describe whether and how emotional states change within the span.
+
+Format:
+- emotion1->emotion2
+- emotion1->emotion2->emotion3
+- use "na" if no emotion shift occurs
+
+Available emotion labels:
+- happiness
+- anger
+- sadness
+- fear
+- surprise
+- neutral
+
+Notes:
+- Annotate emotional transitions when emotional polarity or emotional category changes.
+- If the emotional state remains unchanged, use "na".
+- Emotion intensity changes without categorical transition may also indicate a shift when clearly expressed.
+
+---
+
+## 3. Trigger of Emotion Shift
+
+Annotate the linguistic device that potentially induces or signals emotional change.
+
+Available trigger labels:
+- opposite
+- negation
+- irony
+- na
+
+Notes:
+- Multiple triggers may co-occur in one span.
+- Use a list when multiple triggers appear.
+- Annotate triggers even if no actual emotion shift occurs.
+
+Examples:
+- negation: “不开心”
+- opposite: “从开心到失落”
+- irony: “你烦我开心[鼓掌]”
+
+---
+
+## 4. Mechanism of Emotion Shift
+
+Annotate the underlying discourse-level mechanism associated with the emotional expression.
+
+Available mechanism labels:
+- contingent
+- frustration
+- satiation
+- na
+
+Definitions:
+- contingent: emotion changes due to external events, situations, or contextual outcomes
+- frustration: emotion changes caused by blocked expectation, negation, conflict, or unmet goals
+- satiation: emotion changes caused by excessive repetition, prolonged exposure, or emotional saturation
+
+Notes:
+- Mechanism reflects the underlying cause of emotional interpretation.
+- Not all emotion spans contain a mechanism.
+- Use "na" if not applicable.
+
+---
+
+# Annotation Principles
+
+1. Each Emotion Span corresponds to one annotation record.
+
+2. All fields must be filled.
+- Use "na" when a field is not applicable.
+
+3. Keep spans minimal and continuous.
+
+4. Keep the output format strictly consistent.
+
+---
+
+# Output Format (JSON)
+
+json [   {     "Emotion_span": "...",     "Emotion_shift": "...",     "Trigger": "...",     "Mechanism": "..."   } ] 

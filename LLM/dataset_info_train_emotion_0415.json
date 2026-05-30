@@ -1,0 +1,6 @@
+{
+  "train_emotion_0415": {
+    "file_name": "train_emotion_0415.json",
+    "formatting": "alpaca"
+  }
+}

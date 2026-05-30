@@ -1,0 +1,60 @@
+{
+  "input": "/Users/tangtang/Desktop/Reseaerch/EMOTION/EmotionReversal/data/human_modify/entries_stilldocx_cross_check_filtered.jsonl",
+  "total_entries": 2825,
+  "group_count(source_path)": 35,
+  "test_ratio_target": 0.2,
+  "test_target_entries": 565,
+  "train_entries": 2233,
+  "test_entries": 592,
+  "train_groups": 28,
+  "test_groups": 7,
+  "seed": 42,
+  "train_path": "/Users/tangtang/Desktop/Reseaerch/EMOTION/EmotionReversal/data/human_modify/splits/train.jsonl",
+  "test_path": "/Users/tangtang/Desktop/Reseaerch/EMOTION/EmotionReversal/data/human_modify/splits/test.jsonl",
+  "train_stats": {
+    "sample_count": 2233,
+    "span_count": 2443,
+    "reversal_counts": {
+      "Negation": 1426,
+      "Opposite": 662,
+      "Irony": 313,
+      "Irony, Negation": 22,
+      "NA": 15,
+      "Negation, Opposite": 4,
+      "Irony, Opposite": 1
+    },
+    "reversal_type_counts": {
+      "Frustration": 1431,
+      "Contingent": 659,
+      "Satiation": 311,
+      "Frustration, Satiation": 22,
+      "NA": 15,
+      "Contingent, Frustration": 4,
+      "Contingent, Satiation": 1
+    }
+  },
+  "test_stats": {
+    "sample_count": 592,
+    "span_count": 663,
+    "reversal_counts": {
+      "Negation": 385,
+      "Opposite": 204,
+      "Irony": 55,
+      "NA": 8,
+      "Negation, Opposite": 5,
+      "Irony, Negation": 4,
+      "Irony, Opposite": 1,
+      "Irony, Negation, Opposite": 1
+    },
+    "reversal_type_counts": {
+      "Frustration": 385,
+      "Contingent": 205,
+      "Satiation": 55,
+      "NA": 8,
+      "Contingent, Frustration": 4,
+      "Frustration, Satiation": 4,
+      "Contingent, Satiation": 1,
+      "Contingent, Frustration, Satiation": 1
+    }
+  }
+}

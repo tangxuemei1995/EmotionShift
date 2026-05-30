@@ -1,0 +1,10 @@
+{
+  "source": "/mnt/SSD_2T/tangxuemei/Emotion_reversal/data/splits/emotion_shift_cls/train_emotion_shift_cls.jsonl",
+  "seed": 42,
+  "ratio": "10:1 (train:dev)",
+  "total": 2114,
+  "train": 1903,
+  "dev": 211,
+  "train_output": "/mnt/SSD_2T/tangxuemei/Emotion_reversal/data/splits/emotion_shift_cls/train_emotion_shift_cls_10_1_train.jsonl",
+  "dev_output": "/mnt/SSD_2T/tangxuemei/Emotion_reversal/data/splits/emotion_shift_cls/train_emotion_shift_cls_10_1_dev.jsonl"
+}
