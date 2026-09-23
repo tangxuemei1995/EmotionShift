@@ -9,6 +9,7 @@ LLM 相关配置见 [`LLM/README.md`](LLM/README.md)。
 
 ## 目录结构
 
+
 ```text
 emotion_github/
 ├── README.md          # 中文说明
@@ -213,3 +214,5 @@ bash emotion_github/LLM/scripts/run_infer_emotion_0415.sh qwen2 0
 - GPU 推荐；各 `run_*.sh` 内可自行修改 `CUDA_VISIBLE_DEVICES`
 
 
+## 计算一致性
+code/calc_annotator_kappa.py
